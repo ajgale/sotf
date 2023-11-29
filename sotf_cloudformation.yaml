@@ -282,7 +282,7 @@ Resources:
     Properties:
       DataType: text
       Description: Parameter to store temp password randomly generated on initial stack creation
-      Name: !Sub mcValheimPW-${AWS::StackName}
+      Name: !Sub mcForestPW-${AWS::StackName}
       Tier: Standard
       Type: String
       Value: tempValue
